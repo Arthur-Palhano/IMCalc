@@ -1,0 +1,59 @@
+/*#010D4C*/
+/*#FFF18D*/
+/*#F84E7E*/
+
+body {
+    margin: 0;
+    background-color: #010D4C;
+    color: #F84E7E;
+    text-align: center;
+    padding-top: 3pc;
+}
+
+.square {
+    margin: 0 auto;
+    width: 13pc;
+    height: 13pc;
+    border: 5px groove #F84E7E;
+    border-radius: 1000px;
+    margin-bottom: 2pc;
+    margin-top: 2pc;
+}
+
+.imc {
+    font-size: 5pc;
+    line-height: 5.5pc;
+}
+
+.inputs {
+    display: inline;
+}
+
+.input {
+    background-color: #010D4C;
+    color: #F84E7E;
+    text-align: center;
+    padding: 1pc;
+    margin: 1pc;
+    width: 4pc;
+    border: 3px solid #F84E7E;
+    border-radius: 20pc;
+    outline: none;
+}
+
+
+.input::-webkit-input-placeholder {
+    color: #F84E7E;
+    text-align: center;
+    font-size: 13px;
+}
+
+.but {
+    background-color:#010D4C;
+    color: #F84E7E;
+    margin: 1pc;
+    padding: 1pc;
+    border: 3px solid #F84E7E;
+    border-radius: 20pc;
+    outline: none;
+}
